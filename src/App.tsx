@@ -1,6 +1,12 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
+
+let names: Array<string> = ["Maks", "Jon", "Meri"];
+
+names.forEach((n) => {
+  alert(n.toUpperCase());
+});
 
 function App() {
   return (
